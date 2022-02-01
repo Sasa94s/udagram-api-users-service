@@ -19,7 +19,7 @@ spec:
           name: udagram-api-user-service
           imagePullPolicy: Always
           ports:
-            - containerPort: 80
+            - containerPort: 8080
           resources:
             requests:
               memory: "64Mi"
